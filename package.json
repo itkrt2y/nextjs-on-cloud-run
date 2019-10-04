@@ -1,15 +1,15 @@
 {
-  "name": "cloudrun-hello-world",
+  "name": "nextjs-on-cloud-run",
   "version": "1.0.0",
-  "description": "Simple hello world sample in Next.js",
+  "description": "Next.js running on Google Cloud Run",
+  "author": "Tatsuya Itakura",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "start:production": "next start -p $PORT"
   },
-  "author": "",
-  "license": "Apache-2.0",
   "dependencies": {
     "next": "^9.0.7",
     "react": "^16.10.2",
