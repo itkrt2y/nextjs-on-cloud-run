@@ -1,9 +1,10 @@
-# Next.js on Google Cloud Run template
+# Next.js on Google Cloud Run
 
 ## Keywords
 
 - Google Cloud Run
 - Next.js
+- TypeScript
 
 ## How to use
 

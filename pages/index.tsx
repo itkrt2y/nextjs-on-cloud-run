@@ -1,5 +1,5 @@
 export default () => (
   <div>
-    <p>Hello Next.js</p>
+    <p>Hello Next.js with TypeScript</p>
   </div>
 );
