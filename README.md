@@ -6,9 +6,7 @@
 - Next.js
 - TypeScript
 
-## How to use
-
-### Development
+## Development
 
 ```
 yarn install
