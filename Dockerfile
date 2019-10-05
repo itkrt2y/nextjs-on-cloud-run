@@ -8,7 +8,7 @@ COPY package.json yarn.lock ./
 RUN yarn
 
 COPY . .
-RUN yarn build 
+RUN yarn build && rm -rf .next/cache
 
 ###
 # Exec Stage 
