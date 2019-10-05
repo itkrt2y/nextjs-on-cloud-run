@@ -11,7 +11,7 @@ COPY . .
 RUN yarn build && rm -rf .next/cache
 
 ###
-# Exec Stage 
+# Exec Stage
 ###
 FROM node:12-alpine
 WORKDIR /app
