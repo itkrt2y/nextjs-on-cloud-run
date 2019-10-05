@@ -1,5 +1,5 @@
-export default () => (
-  <div>
-    <p>Hello Next.js</p>
-  </div>
-);
+function View() {
+  return <div>Hello Next.js</div>;
+}
+
+export default View;
