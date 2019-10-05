@@ -1,14 +1,14 @@
-import { BaseStyles, Box, Heading } from "@primer/components";
+export default () => (
+  <div className="d-md-flex" style={{ minHeight: "100vh" }}>
+    <div
+      className="col-xl-3 col-lg-4 col-md-5 col-sm-12 col-12 px-3 py-4"
+      style={{ backgroundColor: "#2f363d" }}
+    >
+      Side Bar
+    </div>
 
-function View() {
-  return (
-    <BaseStyles>
-      <Box m={4}>
-        <Heading mb={2}>Hello, world!</Heading>
-        <p>This will get Primer text styles.</p>
-      </Box>
-    </BaseStyles>
-  );
-}
-
-export default View;
+    <div className="col-xl-9 col-lg-8 col-md-7 col-sm-12 col-12 px-3 py-4">
+      Contents
+    </div>
+  </div>
+);
