@@ -21,13 +21,13 @@ https://cloud.google.com/run/docs/quickstarts/build-and-deploy
 
 ```
 gcloud builds submit \
-  --tag gcr.io/$(gcloud config get-value project)/helloworld
+  --tag gcr.io/$(gcloud config get-value project)/nextjs-on-cloud-run
 ```
 
 ### Deploy image
 
 ```
 gcloud beta run deploy \
-  --image gcr.io/$(gcloud config get-value project)/helloworld \
+  --image gcr.io/$(gcloud config get-value project)/nextjs-on-cloud-run \
   --platform managed
 ```
