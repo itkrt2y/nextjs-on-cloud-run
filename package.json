@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@primer/components": "^14.3.1",
-    "next": "^9.0.7",
+    "next": "^9.1.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "styled-components": "^4.4.0"
@@ -20,10 +20,10 @@
   "devDependencies": {
     "@types/node": "^12.7.11",
     "@types/react": "^16.9.5",
-    "@typescript-eslint/eslint-plugin": "^2.3.2",
-    "@typescript-eslint/parser": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
     "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2",
