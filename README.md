@@ -27,7 +27,7 @@ gcloud builds submit \
 ### Deploy image
 
 ```
-gcloud beta run deploy \
+gcloud run deploy \
   --image gcr.io/$(gcloud config get-value project)/nextjs-on-cloud-run \
   --platform managed
 ```
