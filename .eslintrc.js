@@ -1,29 +1,22 @@
 module.exports = {
-  env: { browser: true, es6: true, node: true },
+  env: { browser: true, node: true },
+  parser: "@typescript-eslint/parser",
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
     "prettier/react",
   ],
   globals: { Atomics: "readonly", SharedArrayBuffer: "readonly" },
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    ecmaVersion: 2018,
-      sourceType: "module"
-  },
-  plugins: ["@typescript-eslint", "react", "react-hooks", "prettier"],
   rules: {
-    "react/react-in-jsx-scope": "off",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "react/react-in-jsx-scope": 0,
+    "react/prefer-stateless-function": 2,
   },
   settings: {
-    react: {
-      version: "detect"
-    }
-  }
+    react: { version: "detect" },
+  },
 };
