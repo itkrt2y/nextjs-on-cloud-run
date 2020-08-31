@@ -20,7 +20,6 @@ COPY package.json yarn.lock ./
 RUN yarn --frozen-lockfile --production
 
 COPY --from=builder /build/.next .next
-COPY next.config.js .
 RUN mkdir pages
 
 CMD ["yarn", "start:production"]
